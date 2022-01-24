@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_notes/helper/note_provider.dart';
-import 'package:flutter_notes/models/note.dart';
+import 'package:notty/helper/note_provider.dart';
+import 'package:notty/models/note.dart';
 import 'package:provider/provider.dart';
 
 class DeletePopUp extends StatelessWidget {

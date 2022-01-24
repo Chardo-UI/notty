@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_notes/helper/note_provider.dart';
-import 'package:flutter_notes/models/note.dart';
-import 'package:flutter_notes/utils/constants.dart';
-import 'package:flutter_notes/widgets/delete_popup.dart';
+import 'package:notty/helper/note_provider.dart';
+import 'package:notty/models/note.dart';
+import 'package:notty/utils/constants.dart';
+import 'package:notty/widgets/delete_popup.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_notes/screens/note_view_screen.dart';
+import 'package:notty/screens/note_view_screen.dart';
 import 'package:provider/provider.dart';
 
 import 'helper/note_provider.dart';
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider.value(
       value: NoteProvider(),
       child: MaterialApp(
-        title: "Flutter Notes",
+        title: "Notty",
         debugShowCheckedModeBanner: false,
         initialRoute: '/',
         routes: {
